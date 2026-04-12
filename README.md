@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salihawouda2003/renal-transcriptomic-analysis/blob/main/renal_allograft_transcriptomics.ipynb)
+
 # renal-transcriptomic-analysis
 Computational analysis of renal allograft transcriptomics (GSE36059) to identify molecular biomarkers of transplant rejection. Built with Python and Google Colab.
 
@@ -8,6 +10,9 @@ This project was developed to bridge the gap between clinical wet-lab observatio
 
 ### Objective
 To process high-dimensional transcriptomic data from the **GSE36059** dataset (400+ kidney biopsy samples) and identify significant biomarkers that distinguish stable grafts from T-cell mediated rejection.
+
+**Key Results:** 
+* Identified a high-confidence interferon-gamma signature (CXCL9, CXCL10, CXCL11) with a >2.0 Log2 Fold Change, consistent with established clinical biomarkers for T-cell mediated rejection.
 
 ### Technical Implementation
 * **Platform:** Google Colab / Python 3.10
