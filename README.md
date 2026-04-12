@@ -29,6 +29,8 @@ To process high-dimensional transcriptomic data from the **GSE36059** dataset (4
 - [x]  Developed a "Surgical" metadata parser to isolate diagnostic results from clinical notes.
 - [x]  Calculated Log2 Fold Change (LFC) to measure rejection signal intensity.
 - [x]  Mapped Affymetrix Probe IDs to human-readable **Gene Symbols**.
+#### Discovery Visualization:
+![Biomarker Distribution](https://colab.research.google.com/drive/1BkVbksWCeJInRwjkc_vwJfxyH6YRH8yJ#scrollTo=uO2hLHeCRlQT/content/biomarker_distribution.png)
 
 ### Phase 3: Advanced Visualization (In Progress)
 - [x]  Current: Ranked Biomarker Bar Plots.
