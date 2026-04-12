@@ -30,7 +30,7 @@ To process high-dimensional transcriptomic data from the **GSE36059** dataset (4
 - [x]  Calculated Log2 Fold Change (LFC) to measure rejection signal intensity.
 - [x]  Mapped Affymetrix Probe IDs to human-readable **Gene Symbols**.
 #### Discovery Visualization:
-![Biomarker Distribution](biomarker_distribution.png)
+![Biomarker Distribution]()
 
 ### Phase 3: Advanced Visualization (In Progress)
 - [x]  Current: Ranked Biomarker Bar Plots.
