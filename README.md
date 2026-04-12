@@ -14,8 +14,21 @@ To process high-dimensional transcriptomic data from the **GSE36059** dataset (4
 * **Data Retrieval:** `GEOparse` for direct NCBI Gene Expression Omnibus integration.
 * **Analysis Stack:** `Pandas` for data wrangling, `Matplotlib/Seaborn` for visualization, and `Scipy` for statistical validation.
 
-### Current Milestone: Phase 1
-- [x] Repository initialized and linked to Google Colab.
-- [x] Automated retrieval of 400+ clinical samples.
-- [ ] Data Normalization & Log2 Transformation (In Progress).
-- [ ] Differential Expression Analysis & Volcano Plotting.
+## Project Milestones
+
+### Phase 1: Data Ingestion & Environment
+- [x] Automated retrieval of 400+ clinical samples via NCBI GEO API.
+- [x] Environment setup with bioinformatics-specific dependencies.
+
+### Phase 2: Statistical Analysis & Clinical Annotation
+- [x]  Developed a "Surgical" metadata parser to isolate diagnostic results from clinical notes.
+- [x]  Calculated Log2 Fold Change (LFC) to measure rejection signal intensity.
+- [x]  Mapped Affymetrix Probe IDs to human-readable **Gene Symbols**.
+
+### Phase 3: Advanced Visualization (In Progress)
+- [x]  Current: Ranked Biomarker Bar Plots.
+- Next: Generating high-resolution **Volcano Plots** and **Heatmaps** for pathway analysis.
+
+## How to Run
+1. Open `renal_allograft_transcriptomics.ipynb` in Google Colab.
+2. Run all cells to fetch data directly from the NCBI server and generate current biomarker lists.
